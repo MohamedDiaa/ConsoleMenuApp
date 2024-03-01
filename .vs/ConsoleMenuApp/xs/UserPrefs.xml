@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{E628FE15-AF86-4DB9-9A57-6E84FE0B7C01}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleMenuApp/Menu.cs">
+    <Files>
+      <File FileName="ConsoleMenuApp/Program.cs" Line="7" Column="1" />
+      <File FileName="ConsoleMenuApp/Menu.cs" Line="22" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleMenuApp" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ConsoleMenuApp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

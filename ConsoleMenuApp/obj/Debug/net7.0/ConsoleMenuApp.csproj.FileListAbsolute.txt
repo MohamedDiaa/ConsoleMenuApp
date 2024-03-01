@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.csproj.AssemblyReference.cache
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/bin/Debug/net7.0/ConsoleMenuApp
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/bin/Debug/net7.0/ConsoleMenuApp.deps.json
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/bin/Debug/net7.0/ConsoleMenuApp.runtimeconfig.json
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/bin/Debug/net7.0/ConsoleMenuApp.dll
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/bin/Debug/net7.0/ConsoleMenuApp.pdb
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.dll
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/refint/ConsoleMenuApp.dll
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.pdb
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ConsoleMenuApp.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/DotNet/Training/ConsoleMenuApp/ConsoleMenuApp/obj/Debug/net7.0/ref/ConsoleMenuApp.dll
