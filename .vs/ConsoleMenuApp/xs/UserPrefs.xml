@@ -6,13 +6,21 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleMenuApp/Menu.cs">
     <Files>
-      <File FileName="ConsoleMenuApp/Program.cs" Line="7" Column="1" />
-      <File FileName="ConsoleMenuApp/Menu.cs" Line="22" Column="26" />
+      <File FileName="ConsoleMenuApp/Program.cs" Line="8" Column="14" />
+      <File FileName="ConsoleMenuApp/Menu.cs" Line="27" Column="1" />
+      <File FileName="ConsoleMenuApp/TicketPrice.cs" Line="60" Column="8" />
+      <File FileName="ConsoleMenuApp/Util.cs" Line="18" Column="10" />
+      <File FileName="ConsoleMenuApp/TextEcho.cs" Line="9" Column="1" />
+      <File FileName="ConsoleMenuApp/TextSplitter.cs" Line="25" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ConsoleMenuApp" expanded="True" />
+          <Node name="ConsoleMenuApp">
+            <Node name="ConsoleMenuApp">
+              <Node name="Menu.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

@@ -13,6 +13,7 @@ namespace ConsoleMenuApp
                 "4 - Det tredje ordet" };
 
         TextEcho textEcho = new TextEcho();
+        TextSplitter splitter = new TextSplitter();
 
         public Menu()
         {
@@ -51,7 +52,8 @@ namespace ConsoleMenuApp
 
                 else if (value == 4)
                 {
-                    showTicketPrice();
+                    string result = splitter.GetUserInput();
+                    Console.WriteLine(result);
                 }
 
 
