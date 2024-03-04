@@ -9,6 +9,7 @@ namespace ConsoleMenuApp
 
 		public TextEcho()
 		{
+			text = "";
         }
 
 		public void GetUserInput() {

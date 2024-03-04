@@ -9,18 +9,20 @@ namespace ConsoleMenuApp
 
 		static public void wait() {
 
-            Thread.Sleep(1000);
-        }
+			Thread.Sleep(1000);
+		}
 
 		static public void drawLine() {
 
 			for (int index = 0; index < 10; index++) {
 				Console.Write("*");
-                Thread.Sleep(40);
-            }
+				Thread.Sleep(40);
+			}
 
 			Console.WriteLine("\n");
-        }
+		}
+
+
     }
 }
 

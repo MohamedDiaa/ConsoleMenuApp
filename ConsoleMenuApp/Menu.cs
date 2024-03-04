@@ -12,6 +12,7 @@ namespace ConsoleMenuApp
                 "3 - Upprepa tio gånger",
                 "4 - Det tredje ordet" };
 
+        TicketCheckout ticketCheckout = new TicketCheckout();
         TextEcho textEcho = new TextEcho();
         TextSplitter splitter = new TextSplitter();
 
@@ -21,7 +22,8 @@ namespace ConsoleMenuApp
         }
 
 
-        public void showMainMenu() {
+        public void showMainMenu()
+        {
 
             bool quit = false;
 
@@ -37,12 +39,15 @@ namespace ConsoleMenuApp
                     quit = true;
                     Console.WriteLine("Thanks for coming");
                 }
-                else if (value == 1) {
-                    showTicketPrice();
+                else if (value == 1)
+                {
+
+                    string result = ticketCheckout.GetFormattedTicketPrice();
+                    Console.WriteLine(result);
                 }
                 else if (value == 2)
                 {
-                    showTicketPrice();
+                    ticketCheckout.getTotalPriceForGroupOfCustomers();
                 }
 
                 else if (value == 3)
@@ -64,20 +69,14 @@ namespace ConsoleMenuApp
         }
 
 
-        public void showMenuOptions() {
+        public void showMenuOptions()
+        {
 
-            foreach (string option in menuOtpions) {
+            foreach (string option in menuOtpions)
+            {
 
                 Console.WriteLine(option);
             }
-        }
-
-
-        public void showTicketPrice() {
-
-            TicketPrice ticketPrice = new TicketPrice();
-            string result = ticketPrice.GetFormattedTicketPrice();
-            Console.WriteLine(result);
         }
     }
 }

@@ -9,6 +9,7 @@ namespace ConsoleMenuApp
 
         public TextSplitter()
         {
+            text = "";
         }
 
         public string GetUserInput()

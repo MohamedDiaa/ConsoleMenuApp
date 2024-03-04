@@ -2,7 +2,7 @@
 namespace ConsoleMenuApp
 {
 
-    public class TicketPrice
+    public class TicketCheckout
     {
 
         public enum AgeGroup
@@ -12,92 +12,98 @@ namespace ConsoleMenuApp
             normal
         }
 
-        const int ungdomPris = 80;
-        const int pensionsPris = 90;
-        const int normalPris = 120;
+        const double ungdomPris = 80;
+        const double pensionsPris = 90;
+        const double normalPris = 120;
 
-        public TicketPrice()
+        public TicketCheckout()
         {
         }
 
-
-
-        public int GetUserAge() {
-
-
+        public double GetUserAge()
+        {
             Console.WriteLine("Enter your age");
-            _ = int.TryParse(Console.ReadLine(), out int age);
+            _ = double.TryParse(Console.ReadLine(), out double age);
 
             return age;
         }
 
-        public int GetUserTicketPrice()
+        public double GetUserTicketPrice()
         {
 
-            Console.WriteLine("Enter your age");
-            _ = int.TryParse(Console.ReadLine(), out int age);
-
-            AgeGroup ageGroup = AgeGroupCalculation(age);
-            int price = PrisforAgeGroup(ageGroup);
+            double age = GetUserAge();
+            double price = PriceForAge(age);
 
             return price;
         }
 
-
-        public int PrisforAgeGroup(AgeGroup ageGroup)
-        {
-
-            switch (ageGroup)
-            {
-
-                case AgeGroup.ungdom:
-                    return TicketPrice.ungdomPris;
-                case AgeGroup.pension:
-                    return TicketPrice.pensionsPris;
-                case AgeGroup.normal:
-                    return TicketPrice.normalPris;
-                default:
-                    return 0;
-
-            }
-        }
-
-
         public string GetFormattedTicketPrice()
         {
 
-            int age = GetUserAge();
-            AgeGroup group = AgeGroupCalculation(age);
-            int price = PrisforAgeGroup(group);
+            double age = GetUserAge();
+            double price = PriceForAge(age);
 
-            switch (group)
+            if (age < 20)
             {
-
-                case AgeGroup.ungdom:
-                    return $"ungdompris {price}";
-                case AgeGroup.pension:
-                    return $"pensionärpris {price}";
-                default:
-                    return $"pris {price}";
+                return $"ungdompris {price}";
+            }
+            else if (age > 64)
+            {
+                return $"pensionärpris {price}";
+            }
+            else
+            {
+                return $"pris {price}";
             }
         }
 
-        public AgeGroup AgeGroupCalculation(int age)
+
+        public double PriceForAge(double age)
         {
 
             if (age < 20)
             {
-                return AgeGroup.ungdom;
+                return TicketCheckout.ungdomPris;
             }
             else if (age > 64)
             {
-                return AgeGroup.pension;
+                return TicketCheckout.pensionsPris;
             }
             else
             {
-                return AgeGroup.normal;
+                return TicketCheckout.normalPris;
             }
         }
+
+
+        public void getTotalPriceForGroupOfCustomers()
+        {
+
+            Console.WriteLine("please enter number of customers");
+            string input = Console.ReadLine();
+
+            int.TryParse(input, out int count);
+
+            Console.WriteLine("please enter age of each user followed by enter");
+
+            double result = 0;
+
+            for (int i = 1; i <= count; i++) {
+
+                Console.WriteLine($"age of customer {i}");
+                string inputage = Console.ReadLine();
+                double.TryParse(inputage, out double userAge);
+
+                double price = PriceForAge(userAge);
+
+                result += price;
+            }
+
+
+            Console.WriteLine($"total price for the {count} customers are {result} SEK");
+
+        }
+
     }
 }
 
